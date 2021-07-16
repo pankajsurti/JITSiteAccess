@@ -19,13 +19,13 @@ An Automation to add and remove Privledged Admin users for defined period of tim
 | InternalName | Display Name |Field Type| ShowInForm
 | ----------- | ----------- |---|----------|
 | Title | Site Name |SingleText| Yes |
-| reqJustification |Multi| Text | Yes |
-| reqStatus | Text |Choice| No |
-| reqSysStatus | Text |Choice| No |
-| reqActivateTime | Text |DateTime| No |
-| reqExpiryTime | Text |DateTime| No |
-| reqExpireTimeMin | Text |Number| No |
-| reqApprovers | Text |Multi Person| No |
+| reqJustification |Note| Justification | Yes |
+| reqStatus | Request Status |Choice| No |
+| reqSysStatus | System Status |Choice| No |
+| reqActivateTime | Activate Time |DateTime| No |
+| reqExpiryTime | Expiry Time |DateTime| No |
+| reqExpireTimeMin | Expire Time in Minutes |Number| No |
+| reqApprovers | Site Approvers |Multi Person| No |
 
 ### Step 2: Create Azure Function
 
