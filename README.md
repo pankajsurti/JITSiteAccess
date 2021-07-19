@@ -19,13 +19,16 @@ An Automation to add and remove Privledged Admin users for defined period of tim
 | InternalName | Display Name |Field Type| ShowInForm
 | ----------- | ----------- |---|----------|
 | Title | Site Name |SingleText| Yes |
-| reqJustification |Note| Justification | Yes |
-| reqStatus | Request Status |Choice| No |
-| reqSysStatus | System Status |Choice| No |
+| reqJustification |Justification| Note | Yes |
+| reqStatus | Request Status |Choice (*)| No |
+| reqSysStatus | System Status |Choice (*)| No |
 | reqActivateTime | Activate Time |DateTime| No |
 | reqExpiryTime | Expiry Time |DateTime| No |
 | reqExpireTimeMin | Expire Time in Minutes |Number| No |
 | reqApprovers | Site Approvers |Multi Person| No |
+(*) See below for the choices
+
+Follow [here](https://github.com/pankajsurti/JITSiteAccess/tree/main/ArtifactsCreationFlows) to create artifacts using Power Automate flow.
 
 ### Step 2: Create Azure Function
 
